@@ -4,7 +4,7 @@
 // 2. Code a size command to make it big enough for your picture
 
 //    The size command looks like this:      
-  size (100,200);
+  size (500, 500);
 //    Try putting different numbers in the parentheses.
 //    See if you can figure out which number is the width, and which is the height
 
@@ -20,8 +20,21 @@
 
 // 4. Now add a rect command to draw a rectangle.
 
+
+
+
+ellipse(250, 375, 150, 150);
+ellipse(250, 175, 50, 50);
+fill(#0A0A0A);
+rect(225, 125, 50, 25);
+rect(237, 100, 25, 50);
+ellipse(260, 165, 10, 10);  
+ellipse(240, 165, 10, 10);
+ellipse(250, 250, 20, 20);
+ellipse(250, 220, 20, 20);
+ellipse(250, 280, 20, 20);
 //    The rect command looks like this:       
-rect(250,250, 100,100);
+
 
 //    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
 //    The main difference is the x and y co-ordinates are the top left corner of the shape.
